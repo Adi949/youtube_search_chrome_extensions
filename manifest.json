@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Youtube search ",
+  "description": "It search selected word in youtube",
+  "background": {
+    "persistent": false,
+    "scripts": ["script.js"]
+  },
+  "icons": {
+    "128": "youtube-logo1.png"
+  },
+  "permissions": ["contextMenus", "tabs"]
+}
